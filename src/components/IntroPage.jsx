@@ -5,9 +5,9 @@ import first from './Assets/first.jpg'
 import {BiRightArrowCircle} from 'react-icons/bi'
 const IntroPage = () => {
   return (
-    <div className=' h-max  py-10 w-full bg-gradient-to-br from-white to-blue-400 grid gap-y-10'>
+    <div className=' h-max  lg:pt-10 pb-10 w-full bg-gradient-to-br from-white to-blue-400 grid gap-y-10'>
 <Header/>
-<div className='mt-10 md:w-[95%] lg:w-[80%] xl:w-[70%] mx-auto flex flex-wrap justify-around gap-x-5'>
+<div className='lg:mt-10 md:w-[95%] lg:w-[80%] xl:w-[70%] mx-auto flex flex-wrap justify-around gap-x-5'>
     {/* paragraph section */}
     <div className='text-left grid gap-y-3 md:gap-y-2 xl:gap-y-1 w-1/2'>
 <div className='flex items-center justify-start gap-x-2 bg-gradient-to-br from-white to-blue-600 w-max h-max p-2'>

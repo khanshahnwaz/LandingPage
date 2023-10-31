@@ -6,7 +6,7 @@ const Header = () => {
   const [controlSideBar, setControlSideBar] = useState("-left-[200%]"); 
   return (
     <>
-      <div className="lg:hidden flex justify-between md:space-x-7 w-full py-3 px-2 ">
+      <div className="lg:hidden flex justify-between md:space-x-7 w-[95%] mx-auto py-3 px-2 ">
         <MdOutlineMenu
           onClick={() => setControlSideBar("left-0")}
           className="cursor-pointer hover:opacity-70 my-auto text-3xl"
@@ -21,7 +21,7 @@ const Header = () => {
 
       <div
         id="head"
-        className={`lg:block hidden sticky top-10 left-60 w-[70%] py-5 px-2 mx-auto text-center bg-white z-40 `}
+        className={`lg:block hidden sticky  lg:mt-10 lg:w-[80%] xl:w-[70%]  py-5 px-2 mx-auto text-center bg-white  `}
       >
        
           <nav>

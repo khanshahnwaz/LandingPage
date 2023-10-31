@@ -7,7 +7,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const MobileViews = (props) => {
   return (
     <div
-      className={` lg:hidden w-full sm:w-max    h-full bg-blue-300 text-left py-10 px-10  absolute top-0 ${
+      className={` lg:hidden w-full= sm:w-max    h-full bg-blue-300 text-left py-10 px-10  absolute top-0 ${
         props.controlSideBar
       }  z-50 transition-all ease-in-out duration-1000 `}
     >
