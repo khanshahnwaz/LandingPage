@@ -21,7 +21,7 @@ const Header = () => {
 
       <div
         id="head"
-        className={`lg:block hidden sticky top-10 left-60 w-[70%] py-5 px-2 mx-auto text-center bg-white   z-40  transition-colors duration-500 delay-75  `}
+        className={`lg:block hidden sticky top-10 left-60 w-[70%] py-5 px-2 mx-auto text-center bg-white z-40 `}
       >
        
           <nav>

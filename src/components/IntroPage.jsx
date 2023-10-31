@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Header/Header'
 import first from './Assets/first.jpg'
-import second from './Assets/Icon.png'
 
 import {BiRightArrowCircle} from 'react-icons/bi'
 const IntroPage = () => {
@@ -35,7 +34,7 @@ const IntroPage = () => {
     </div>
     {/* image */}
     <div className=' h-max '>
-        <img src={first} className='xl:h-96 lg:h-80 md:h-72 sm:h-48 h-36 rounded-3xl'/>
+        <img src={first} alt='Intro' className='xl:h-96 lg:h-80 md:h-72 sm:h-48 h-36 rounded-3xl'/>
     </div>
 </div>
     </div>
